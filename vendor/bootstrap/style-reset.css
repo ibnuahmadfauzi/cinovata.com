@@ -4,3 +4,8 @@
 .bg-dark {
   background-color: #373737 !important;
 }
+
+.btn-primary {
+  background-color: #e3896f !important;
+  border: 0;
+}

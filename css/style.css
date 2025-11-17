@@ -13,3 +13,8 @@ header .logo-brand img {
 body {
   font-family: "Poppins", sans-serif;
 }
+
+aside,
+main {
+  margin: 20px;
+}

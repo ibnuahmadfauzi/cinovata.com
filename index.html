@@ -16,6 +16,15 @@
 
     <!-- Bootstrap File -->
     <link rel="stylesheet" href="css/style.css" />
+
+    <!-- FontAwesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
+      integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body class="bg-light">
     <div class="container-fluid">
@@ -54,7 +63,7 @@
                     <a class="nav-link text-light" href="#">Galeri</a>
                   </li>
                   <li class="nav-item me-2">
-                    <a class="nav-link text-light" href="#">E-Book</a>
+                    <a class="nav-link text-light" href="#">Buku</a>
                   </li>
                   <li class="nav-item me-2">
                     <a class="nav-link text-light" href="#">Tentang Kami</a>
@@ -73,7 +82,55 @@
       </header>
     </div>
 
+    <div class="container-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <main>
+              <div class="row article-container-home"></div>
+            </main>
+          </div>
+          <div class="col-lg-4">
+            <aside>
+              <form class="search-form">
+                <div class="mb-2">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Apa Yang Kamu Cari ?"
+                  />
+                </div>
+                <div class="mb-3">
+                  <button class="btn btn-primary w-100">
+                    <i class="fas fa-search"></i>
+                  </button>
+                </div>
+              </form>
+            </aside>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- Bootstrap CDN -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- FontAwesome CDN -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/js/all.min.js"
+      integrity="sha512-LW9+kKj/cBGHqnI4ok24dUWNR/e8sUD8RLzak1mNw5Ja2JYCmTXJTF5VpgFSw+VoBfpMvPScCo2DnKTIUjrzYw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- jQuery CDN -->
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.js"
+      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- JS File -->
+    <script src="js/script-home.js"></script>
   </body>
 </html>
