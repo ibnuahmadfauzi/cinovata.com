@@ -51,29 +51,34 @@
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav mx-auto">
                   <li class="nav-item me-2">
+                    <a class="nav-link text-light" href="/">Beranda</a>
+                  </li>
+                  <!-- <li class="nav-item me-2">
                     <a class="nav-link text-light" href="#">Kelas Gratis</a>
-                  </li>
-                  <li class="nav-item me-2">
+                  </li> -->
+                  <!-- <li class="nav-item me-2">
                     <a class="nav-link text-light" href="#">Artikel</a>
-                  </li>
-                  <li class="nav-item me-2">
+                  </li> -->
+                  <!-- <li class="nav-item me-2">
                     <a class="nav-link text-light" href="#">Vidio</a>
-                  </li>
-                  <li class="nav-item me-2">
+                  </li> -->
+                  <!-- <li class="nav-item me-2">
                     <a class="nav-link text-light" href="#">Galeri</a>
-                  </li>
-                  <li class="nav-item me-2">
+                  </li> -->
+                  <!-- <li class="nav-item me-2">
                     <a class="nav-link text-light" href="#">Buku</a>
-                  </li>
+                  </li> -->
                   <li class="nav-item me-2">
-                    <a class="nav-link text-light" href="#">Tentang Kami</a>
+                    <a class="nav-link text-light" href="tentang-kami"
+                      >Tentang Kami</a
+                    >
                   </li>
-                  <li class="nav-item me-2">
+                  <!-- <li class="nav-item me-2">
                     <a class="nav-link text-light" href="#">Portofolio</a>
-                  </li>
-                  <li class="nav-item me-2">
+                  </li> -->
+                  <!-- <li class="nav-item me-2">
                     <a class="nav-link text-light" href="#">Layanan</a>
-                  </li>
+                  </li> -->
                 </ul>
               </div>
             </div>
@@ -92,24 +97,74 @@
           </div>
           <div class="col-lg-4">
             <aside>
-              <form class="search-form">
-                <div class="mb-2">
-                  <input
-                    type="text"
-                    class="form-control"
-                    placeholder="Apa Yang Kamu Cari ?"
+              <div class="mb-5">
+                <form class="search-form">
+                  <div class="mb-2">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Apa Yang Kamu Cari ?"
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <button class="btn btn-primary w-100">
+                      <i class="fas fa-search"></i>
+                    </button>
+                  </div>
+                </form>
+              </div>
+              <div class="mb-5">
+                <a href="#">
+                  <img
+                    src="images/banner/banner.png"
+                    class="w-100 rounded-2"
+                    alt="Cinovata Studio"
                   />
+                </a>
+              </div>
+              <div class="mb-5">
+                <h6 class="bg-primary text-light text-center rounded-2 py-1">
+                  Artikel Terpopuler
+                </h6>
+                <div class="list-group">
+                  <a href="#" class="list-group-item list-group-item-action"
+                    >Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Itaque, labore!</a
+                  >
+                  <a href="#" class="list-group-item list-group-item-action"
+                    >Lorem ipsum dolor sit amet 6consectetur adipisicing elit.
+                    Obcaecati, asperiores!</a
+                  >
+                  <a href="#" class="list-group-item list-group-item-action"
+                    >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Modi, alias!</a
+                  >
+                  <a href="#" class="list-group-item list-group-item-action"
+                    >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Magnam, ex.</a
+                  >
+                  <a href="#" class="list-group-item list-group-item-action"
+                    >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Magnam, pariatur!</a
+                  >
                 </div>
-                <div class="mb-3">
-                  <button class="btn btn-primary w-100">
-                    <i class="fas fa-search"></i>
-                  </button>
-                </div>
-              </form>
+              </div>
+              <div class="mb-5">
+                <h6 class="bg-primary text-light text-center rounded-2 py-1">
+                  Kategori
+                </h6>
+                <div id="kategori-sidebar"></div>
+              </div>
             </aside>
           </div>
         </div>
       </div>
+    </div>
+
+    <div class="container-fluid">
+      <footer>
+        <p class="text-center">CinovataStudio &copy; 2025</p>
+      </footer>
     </div>
 
     <!-- Bootstrap CDN -->
@@ -129,6 +184,12 @@
       integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
       crossorigin="anonymous"
     ></script>
+
+    <!-- Utils -->
+    <!-- Tags -->
+    <script src="utils/tags.js"></script>
+    <!-- Artivles -->
+    <script src="utils/articles.js"></script>
 
     <!-- JS File -->
     <script src="js/script-home.js"></script>

@@ -1,8 +1,15 @@
+.text-light {
+  color: #ffffff !important;
+}
+
 .bg-light {
   background-color: #ffffff !important;
 }
 .bg-dark {
   background-color: #373737 !important;
+}
+.bg-primary {
+  background-color: #e3896f !important;
 }
 
 .btn-primary {
