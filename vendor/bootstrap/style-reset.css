@@ -1,6 +1,9 @@
 .text-light {
   color: #ffffff !important;
 }
+.text-primary {
+  color: #e3896f !important;
+}
 
 .bg-light {
   background-color: #ffffff !important;
